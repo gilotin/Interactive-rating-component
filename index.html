@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+        <title>Frontend Mentor | Interactive rating component</title>
+
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Rating state start -->
+
+        <section class="rating-card">
+            <img src="./images/icon-star.svg" alt="orange star" />
+
+            <h1 class="rating-card__header">How did we do?</h1>
+
+            <form class="rating-card__form" action="/submit-rating" method="post">
+                <legend class="rating-card__form-legend">
+                    Please let us know how we did with your support request. All feedback is
+                    appreciated to help us improve our offering!
+                </legend>
+                <label class="rating-card__form-lable">
+                    <input type="radio" name="rating" value="1" />
+                    1
+                </label>
+                <label class="rating-card__form-lable">
+                    <input type="radio" name="rating" value="2" />
+                    2
+                </label>
+                <label class="rating-card__form-lable">
+                    <input type="radio" name="rating" value="3" />
+                    3
+                </label>
+                <label class="rating-card__form-lable">
+                    <input type="radio" name="rating" value="4" />
+                    4
+                </label>
+                <label class="rating-card__form-lable">
+                    <input type="radio" name="rating" value="5" />
+                    5
+                </label>
+                <button class="rating-card__form-button" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="result-card">
+            <img src="./images/illustration-thank-you.svg" alt="voting machine" />
+            <h2 class="result-card__header">
+                You selected<span>Add rating here</span> out of 5 Thank you!
+            </h2>
+            <p class="result-card__description">
+                We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!
+            </p>
+        </section>
+    </body>
+</html>
