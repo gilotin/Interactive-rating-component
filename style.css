@@ -8,3 +8,45 @@
     --Very-Dark-Blue: hsl(216, 12%, 8%);
 
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--Light-Grey);
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    border: 1px solid var(--Dark-Blue);
+    background-color: var(--Dark-Blue);
+    width: 350px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: .6rem;
+}
+
+
+.rating-card {
+
+    /* border: 1px solid var(--Dark-Blue);
+    background-color: var(--Dark-Blue);
+    width: 350px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: .6rem; */
+
+
+}
+
+.result-card {}
