@@ -107,3 +107,32 @@ body {
     background-color: var(--White);
     cursor: pointer;
 }
+
+
+/* Result Card */
+
+.result-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.result-card__image {
+    max-width: 60%;
+    margin-bottom: 2rem;
+}
+
+.result-card__paragraph {
+    color: var(--Orange);
+    background-color: var(--Dark-Blue);
+    padding: .8rem;
+    border-radius: 2rem;
+}
+
+.result-card__header {
+    color: var(--White);
+    margin: 1rem 0;
+    font-size: 2rem;
+}
