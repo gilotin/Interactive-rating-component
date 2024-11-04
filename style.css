@@ -19,20 +19,19 @@ body {
     color: var(--Light-Grey);
 }
 
-.active {
-    display: block;
-}
 
 .hidden {
-    display: none;
+    display: none !important;
+    /* I'm not fan of using !important, 
+    but I thinks for here is better 
+    then using one extra div in the HTML*/
 }
 
 .wrapper {
     border: 1px solid var(--Very-Dark-Blue);
     background: linear-gradient(to bottom right, var(--Dark-Blue), var(--Very-Dark-Blue));
     width: 350px;
-    margin: 1.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 1rem;
 }
 
@@ -116,7 +115,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
 }
 
 .result-card__image {
