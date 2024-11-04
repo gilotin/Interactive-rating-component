@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: var(--Very-Dark-Blue);
+    background-color: black;
     color: var(--Light-Grey);
 }
 
@@ -28,25 +28,82 @@ body {
 }
 
 .wrapper {
+    border: 1px solid var(--Very-Dark-Blue);
+    background: linear-gradient(to bottom right, var(--Dark-Blue), var(--Very-Dark-Blue));
+    width: 350px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.rating-card__image {
+    background-color: var(--Dark-Blue);
+    border-radius: 100%;
+    padding: .8rem;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 2rem;
+}
+
+.rating-card__header {
+    color: var(--White);
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.rating-card__form-legend {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+
+.rating-card__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rating-card__form-label {
+    width: 3rem;
+    font-size: 1.2rem;
     border: 1px solid var(--Dark-Blue);
     background-color: var(--Dark-Blue);
-    width: 350px;
-    margin: 1.5rem;
-    padding: 1.5rem;
-    border-radius: .6rem;
+    border-radius: 50%;
+    padding: .5rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--Light-Grey);
 }
 
-
-.rating-card {
-
-    /* border: 1px solid var(--Dark-Blue);
-    background-color: var(--Dark-Blue);
-    width: 350px;
-    margin: 1.5rem;
-    padding: 1.5rem;
-    border-radius: .6rem; */
-
-
+.rating-card__form-label:hover {
+    background-color: var(--Orange);
+    cursor: pointer;
+    color: var(--Very-Dark-Blue);
 }
 
-.result-card {}
+.rating-card__form-label input {
+    display: none;
+}
+
+.rating-card__form-label:has(input:checked) {
+    background-color: var(--White);
+    color: var(--Very-Dark-Blue);
+}
+
+.rating-card__form-button {
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 2rem;
+    color: var(--Dark-Blue);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: var(--Orange);
+}
+
+.rating-card__form-button:hover {
+    background-color: var(--White);
+    cursor: pointer;
+}
