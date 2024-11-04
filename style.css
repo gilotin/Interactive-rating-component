@@ -30,7 +30,8 @@ body {
 .wrapper {
     border: 1px solid var(--Very-Dark-Blue);
     background: linear-gradient(to bottom right, var(--Dark-Blue), var(--Very-Dark-Blue));
-    width: 350px;
+    max-width: 400px;
+    width: 90%;
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -51,7 +52,7 @@ body {
 }
 
 .rating-card__form-legend {
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
 }
@@ -133,4 +134,13 @@ body {
     color: var(--White);
     margin: 1rem 0;
     font-size: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    .rating-card__form-legend {
+        font-size: .9rem;
+        font-weight: 600;
+        margin-bottom: 1.2rem;
+    }
 }
