@@ -10,13 +10,13 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 0;
     background-color: black;
     color: var(--Light-Grey);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
 }
 
 
@@ -28,21 +28,21 @@ body {
 }
 
 .wrapper {
-    border: 1px solid var(--Very-Dark-Blue);
     background: linear-gradient(to bottom right, var(--Dark-Blue), var(--Very-Dark-Blue));
-    max-width: 400px;
-    width: 90%;
-    padding: 2rem;
     border-radius: 1rem;
+    border: 1px solid var(--Very-Dark-Blue);
+    max-width: 400px;
+    padding: 2rem;
+    width: 90%;
 }
 
 .rating-card__image {
     background-color: var(--Dark-Blue);
     border-radius: 100%;
-    padding: .8rem;
-    width: 45px;
     height: 45px;
     margin-bottom: 2rem;
+    padding: .8rem;
+    width: 45px;
 }
 
 .rating-card__header {
@@ -65,15 +65,15 @@ body {
 }
 
 .rating-card__form-label {
-    width: 3rem;
-    font-size: 1.2rem;
-    border: 1px solid var(--Dark-Blue);
     background-color: var(--Dark-Blue);
     border-radius: 50%;
+    border: 1px solid var(--Dark-Blue);
+    color: var(--Light-Grey);
+    font-size: 1.2rem;
+    font-weight: 600;
     padding: .5rem;
     text-align: center;
-    font-weight: 600;
-    color: var(--Light-Grey);
+    width: 3rem;
 }
 
 .rating-card__form-label:hover {
@@ -92,15 +92,16 @@ body {
 }
 
 .rating-card__form-button {
-    margin: 1.5rem 0;
-    padding: 1rem 2rem;
-    width: 100%;
+    background-color: var(--Orange);
     border-radius: 2rem;
+    border: 1px solid var(--Dark-Blue);
     color: var(--Dark-Blue);
-    text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    background-color: var(--Orange);
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    width: 100%;
 }
 
 .rating-card__form-button:hover {
@@ -112,10 +113,10 @@ body {
 /* Result Card */
 
 .result-card {
-    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .result-card__image {
@@ -124,10 +125,10 @@ body {
 }
 
 .result-card__paragraph {
-    color: var(--Orange);
     background-color: var(--Dark-Blue);
-    padding: .8rem;
     border-radius: 2rem;
+    color: var(--Orange);
+    padding: .4rem 1.4rem;
 }
 
 .result-card__header {
