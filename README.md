@@ -31,15 +31,17 @@ Users should be able to:
 ### Screenshot
 
 ![desktop vote card](./screenshots/FireShot%20Capture%20008%20-%20Frontend%20Mentor%20-%20Interactive%20rating%20component%20-%20127.0.0.1.png)
+
 [desktop result card](./screenshots/FireShot%20Capture%20009%20-%20Frontend%20Mentor%20-%20Interactive%20rating%20component%20-%20127.0.0.1.png)
 
 ![mobile vote card](<./screenshots/Pixel-2-375x760(1).png>)
+
 [mobile result card](<./screenshots/Pixel-2-375x760(2).png>)
 
 ### Links
 
 -   Solution URL: [Frontend Mentor](https://your-solution-url.com)
--   Live Site URL: [Vercel](https://your-live-site-url.com)
+-   Live Site URL: [Vercel](https://interactive-rating-component-omega-seven.vercel.app/)
 
 ## My process
 
