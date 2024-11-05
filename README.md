@@ -54,7 +54,7 @@ Users should be able to:
 
 ### What I learned
 
--   i didn't with work in a while with radio types in html forms, so was refreshing to play and stylize them.
+-   I didn't with work in a while with radio types in html forms, so was refreshing to play and stylize them.
 
 ### Continued development
 
